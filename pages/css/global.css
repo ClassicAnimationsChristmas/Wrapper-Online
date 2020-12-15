@@ -117,7 +117,49 @@ header dropdowns
 	border: 1px solid #222;
 	margin: 10px 0;
 }
+.warning {
+font-size: 14px;
+padding: 10px 0;
+background-color: #fd7;
+text-align: center			padding: 10px 0;
+			background-color: #fd7;
+			text-align: center;
+		}			background-color: #fd7;
+			text-align: center			padding: 10px 0;			text-align: center			padding: 10px 0;
+			background-color: #fd7;
+			text-align: center;
+		}			background-color: #fd7;
+			text-align: center			padding: 10px 0;
+			background-color: #fd7;
+			text-align: center;
+		}
 
+		.warning::before {
+			font-family: 'GlyphiconsRegular';
+			padding-right: 4px;
+			content: '\E079';
+			font-size: 12px;
+		}
+
+		.warning>a {
+			color: #5596e6;
+		}
+			font-size: 14px;
+			padding: 10px 0;
+			background-color: #fd7;
+			text-align: center;
+		}
+
+		.warning::before {
+			font-family: 'GlyphiconsRegular';
+			padding-right: 4px;
+			content: '\E079';
+			font-size: 12px;
+		}
+
+		.warning>a {
+			color: #5596e6;
+		}
 
 /**
 footer
